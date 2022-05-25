@@ -1,0 +1,16 @@
+{
+    "aday": {
+        "used_times": -1,
+        "promo_response": 86400000,
+        "may_use_times": 5,
+        "expired_response": 0,
+        "promo_type": "aday"
+    },
+    "sevenday": {
+        "used_times": -10,
+        "promo_response": 604800000,
+        "may_use_times": 10,
+        "expired_response": 0,
+        "promo_type": "sevenday"
+    }
+}
