@@ -1,19 +1,17 @@
 const express = require('express')  
 const fs = require('fs')
+var path = require('path')
 const app = express()
-
 
 class Server {
     static start(){
-      
         app.listen(3000)
         console.log(`server running:  http://localhost:3000/exec?code_promo=aday`)
     }
 }
 
-
 let jsonDataOut = require('./output/fileOut.json')
-let jsonDataIn = './input/fileIn.json'
+let jsonDataIn = path.join(__dirname, '/input/fileIn.json') 
 app.get('/exec', async(req, res) => {
     const {code_promo} = req.query
     if(code_promo != undefined){  
