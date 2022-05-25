@@ -18,7 +18,6 @@ local_server.start()
 ```
 
 ## Test
-node index.js
 `node index.js`
 
 ### everytime you call, with promotional right code, this file will be changed [fileIn.json](https://github.com/Allanksr/Local-Endpoint_server/blob/main/input/fileIn.json)
