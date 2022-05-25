@@ -8,10 +8,10 @@ Single local endpoint server
 
 [![Dependency express](https://gist.githubusercontent.com/Allanksr/25c35fbe9e8019a5ab63092b0ad374e5/raw/c353a2ab5e4b1e4ab105acfeedce1cab8d94bc3a/express.svg)](https://www.npmjs.com/package/express)
 
-[![Dependency express](https://gist.githubusercontent.com/Allanksr/25c35fbe9e8019a5ab63092b0ad374e5/raw/c353a2ab5e4b1e4ab105acfeedce1cab8d94bc3a/express.svg)](https://www.npmjs.com/package/express)
 Then...
 
-in your index.js file
+create an index.js file in the same folder where you have just install library.
+import library as shown below
 ```
 const local_server = require('local_endpoint_server')
 local_server.start()
