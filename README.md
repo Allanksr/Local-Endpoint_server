@@ -20,5 +20,5 @@ local_server.start()
 ## Test
 `node index.js`
 
-### everytime you call, with promotional right code, this file will be changed [fileIn.json](https://github.com/Allanksr/Local-Endpoint_server/blob/main/input/fileIn.json)
+### everytime you call with promotional right code, this file will be changed [fileIn.json](https://github.com/Allanksr/Local-Endpoint_server/blob/main/input/fileIn.json)
 ## in order to expire the promotional code
