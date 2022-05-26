@@ -6,7 +6,8 @@ const app = express()
 class Server {
     static start(){
         app.listen(3000)
-        console.log(`server running:  http://localhost:3000/exec?code_promo=aday`)
+        //ipconfig in ms-dos to find your IPv4 address, something like -> 192.168.0.10
+        console.log(`server running:  http://IPv4Address:3000/exec?code_promo=aday`)
     }
 }
 
