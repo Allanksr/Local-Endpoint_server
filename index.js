@@ -32,6 +32,10 @@ app.get('/exec', async(req, res) => {
                         jsonDataOut.promo[size].promo_type = code_promo
                         jsonDataOut.promo[size].promo_data = 0   
                     }           
+                }else{
+                    jsonDataOut.promo[size].promo_found = false
+                    jsonDataOut.promo[size].promo_type = code_promo
+                    jsonDataOut.promo[size].promo_data = 0   
                 }
             })
             res.write(JSON.stringify(jsonDataOut, null, 4))  
